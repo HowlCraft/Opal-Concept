@@ -1,0 +1,35 @@
+/*	Extension MS	*/
+div#scDepotStack {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+  color: #ffffff;
+  z-index:99999;
+}
+div#scDepotStack a{
+  color: white;
+  text-decoration:none;
+}
+div#scDepotStack a:hover{
+  text-decoration:underline;
+}
+:root{
+  --fontStyle: sans-serif;
+	--fontSize: 0.9;
+  --borderRadius:0.3;
+	--accentDarkBGalpha: #ff974b;
+  --accentDarkBG: #e46000;
+  --accentDarkFG: white; 
+  --accentLightBG: #ececec;
+	--accentLightFG: black;
+  --contentBG: white;
+	--contentFG: black;
+	--contentEmp: #B24A00;
+  --pBkOthers: #484848;
+  --pBkOthersLight: #48484820;
+  --pBkWarning: #dc291e;
+  --pBkWarningLight: #dc291e40;
+  --pBkBasic: #9F590E;
+  --pBkBasicLight: #9F590E40;
+	--footerFG: white;
+}
